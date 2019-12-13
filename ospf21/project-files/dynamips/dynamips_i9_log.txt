@@ -1,0 +1,9 @@
+Dec 13 21:18:02.255 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 13 21:18:02.257 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 2497.
+Dec 13 21:18:02.727 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 13 21:18:02.728 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\htf\GNS3\projects\ospf21\project-files\dynamips 
+Dec 13 21:18:02.729 GENERAL: working_dir=C:\Users\htf\GNS3\projects\ospf21\project-files\dynamips
+Dec 13 21:18:02.730 HYPERVISOR: exec_cmd: ethsw create Switch8 
+Dec 13 21:18:05.948 HYPERVISOR: exec_cmd: nio create_udp udp-c0cf406a-cb81-4c62-b36d-715c53740424 10015 127.0.0.1 10014 
+Dec 13 21:18:05.949 HYPERVISOR: exec_cmd: ethsw add_nio Switch8 udp-c0cf406a-cb81-4c62-b36d-715c53740424 
+Dec 13 21:18:05.970 HYPERVISOR: exec_cmd: ethsw set_access_port Switch8 udp-c0cf406a-cb81-4c62-b36d-715c53740424 1 
